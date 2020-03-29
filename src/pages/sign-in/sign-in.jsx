@@ -6,13 +6,9 @@ import SignUp from '../../components/sign-up/sign-up';
 import './sign-in.scss';
 
 const SignInPage = () => (
-  <div className='sign-in'>
-    <div>
-      <SignIn />
-    </div>
-    <div>
-      <SignUp />
-    </div>
+  <div className='sign-in-up'>
+    <SignIn />
+    <SignUp />
   </div>
 );
 
