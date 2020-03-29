@@ -7,7 +7,12 @@ import './sign-in.scss';
 
 const SignInPage = () => (
   <div className='sign-in'>
-    <SignIn /> <SignUp />
+    <div>
+      <SignIn />
+    </div>
+    <div>
+      <SignUp />
+    </div>
   </div>
 );
 
